@@ -1,0 +1,7 @@
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.card-custom {
+    @apply bg-white border rounded-lg shadow-sm p-4 flex flex-col justify-between;
+}

@@ -1,11 +1,55 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-</head>
-<body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Emergency Service Directory</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link
+      href="https://cdn.jsdelivr.net/npm/daisyui@4.12.10/dist/full.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+
+  <body class="bg-green-50">
     
-</body>
+    <nav
+      class="navbar flex flex-wrap justify-center sm:justify-between items-center gap-3 bg-white px-6 text-black"
+    >
+      <div class="flex-1 max-w-[200px] min-w-[150px] flex items-center gap-2">
+        <img src="assets/logo.png" alt="BD Logo" class="h-10 w-10" />
+        <span class="font-semi-bold text-md text-green-800"
+          >Emergency Service</span
+        >
+      </div>
+      <div class="flex items-center gap-3 sm:gap-6">
+        <div
+          class="flex items-center gap-1 bg-green-100 px-4 py-2 rounded-full"
+        >
+          <span id="heartCount">0</span>
+          <span class="text-red-500">❤️</span>
+        </div>
+        <div
+          class="flex items-center gap-1 bg-green-100 px-4 py-2 rounded-full"
+        >
+          <span class="text-yellow-400">
+            <img src="assets/coin.png" alt="BD Logo" class="h-5 w-5" />
+          </span>
+          <span id="coinCount">100</span>
+        </div>
+        <div
+          class="flex items-center gap-1 text-white px-3 py-1 bg-green-500 px-4 py-2 rounded-full"
+        >
+          <span id="copyCount">0</span>
+          <span>Copy</span>
+        </div>
+      </div>
+    </nav>
+
+    </main>
+
+    <script src="script.js"></script>
+  </body>
 </html>
