@@ -1,1 +1,66 @@
-console.log('Script connected');
+
+const services = [
+  {
+    name: "National Emergency Number",
+    en: "National Emergency",
+    number: "999",
+    category: "All",
+    icon: "assets/emergency.png",
+  },
+  {
+    name: "Police Helpline Number",
+    en: "Police",
+    number: "999",
+    category: "Police",
+    icon: "assets/police.png",
+  },
+  {
+    name: "Fire Service Number",
+    en: "Fire Service",
+    number: "999",
+    category: "Fire",
+    icon: "assets/fire-service.png",
+  },
+  {
+    name: "Ambulance Service",
+    en: "Ambulance",
+    number: "1994-999999",
+    category: "Health",
+    icon: "assets/ambulance.png",
+  },
+  {
+    name: "Women & Child Helpline",
+    en: "Women & Child Helpline",
+    number: "109",
+    category: "Help",
+    icon: "assets/emergency.png",
+  },
+  {
+    name: "Anti-Corruption Helpline",
+    en: "Anti-Corruption",
+    number: "106",
+    category: "Govt.",
+    icon: "assets/emergency.png",
+  },
+  {
+    name: "Electricity Helpline",
+    en: "Electricity Outage",
+    number: "16216",
+    category: "Electricity",
+    icon: "assets/emergency.png",
+  },
+  {
+    name: "Brac Helpline",
+    en: "Brac",
+    number: "16445",
+    category: "NGO",
+    icon: "assets/brac.png",
+  },
+  {
+    name: "Bangladesh Railway Helpline",
+    en: "Bangladesh Railway",
+    number: "163",
+    category: "Travel",
+    icon: "assets/Bangladesh-Railway.png",
+  },
+];
